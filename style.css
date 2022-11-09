@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+        /* font-family: 'DotGothic16', sans-serif; */
+
+        @import url("http://fonts.cdnfonts.com/css/dot-matrix");
+       body {
+          background-color: rgb(0, 0, 0);
+        }
+
+        h1 {
+          text-align: center;
+          font-family: "DotGothic16", sans-serif;
+          color: rgb(255, 0, 43);
+          margin-left: 40px;
+          text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+            1px 1px 0 #000;
+        }
+
+        h2 {
+          text-align: center;
+          font-family: "DotGothic16", sans-serif;
+          color: pink;
+          margin-left: 40px;
+          text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+            1px 1px 0 #000;
+        }
+        
+        ul {
+          background-color: black;
+          font-family: "DotGothic16", sans-serif;
+          color: aliceblue;
+        }
+        li {
+          text-align: center;
+        }
+
+        img {
+          object-fit: contain;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 75%;
+          max-width: 100%;
+        }     
+        
+        div {
+            height: 3em;
+        }
+          
+        p {
+            background-color: black;
+            font-family: "DotGothic16", sans-serif;
+            color: aliceblue;
+        } 
+
+        .column {
+          width: 33.33%;
+          padding: 5px;
+        }
+
+        .row {
+          display: flex;
+          height: 20em;
+        }
+
+        /* .column_image {
+          width: 100%;
+        } */
+  
+
+        

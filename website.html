@@ -6,15 +6,10 @@
       <style></style>
       <title>Laika's Janky & Gay Lil' Hobby Website</title>
     </head>
-    <script>
-      function displayDate() {
-        document.getElementById("showDate").innerHTML = Date();
-        // I just cant get this to work
-      }
-    </script>
 
     <body>
       <h1>Laika's Janky & Gay Lil' Hobby Website</h1>
+      <p>It is the</p>
       <p id="showDate"></p>
       <img />
       <div class="row">
@@ -117,7 +112,11 @@
       </div>
 
       <div style="padding: 50% 0 0 0; position: absolute">
-        <video id="noisevideo" src="compressed_noise.mp4" controls></video>
+        <video
+          id="noisevideo"
+          src="./assets/compressed_noise.mp4"
+          controls
+        ></video>
         <script type="text/javascript">
           (function localFileVideoPlayer() {
             "use strict";

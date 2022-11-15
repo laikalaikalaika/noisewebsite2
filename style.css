@@ -40,10 +40,12 @@
           margin-right: auto;
           width: 75%;
           max-width: 100%;
+          max-height: 15em;
         }     
         
+
         div {
-            height: 3em;
+            /* height: 3em; */
         }
           
         p {
@@ -61,6 +63,7 @@
           display: flex;
           height: 20em;
         }
+        #noisevideo {max-width: 100%;}
 
         /* .column_image {
           width: 100%;

@@ -7,9 +7,15 @@ openPlayer = function (info) {
 }
 function displayDate() {
     console.log('New Date', new Date());
-    var today = new Date()
-    document.getElementById("showDate").innerHTML = (today.toLocaleString());
+    var today = new Date();
+    document.getElementById("showDate").innerHTML = today;
     console.log(today.toLocaleString());
+
+    const fragment = document.createDocumentFragment();
+    const p = fragment.appendChild(document.createElement('p'));
+    p.textContent = today.toLocaleString();
+
+document.body.appendChild(p);
 
     
   }
